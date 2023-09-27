@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+        .container{
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            color: whitesmoke;
+        }
+        .footer{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: whitesmoke;
+        }
+        .h2{
+            position: absolute;
+            left: 10px;
+            padding-bottom: 20px;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text" href="./MP1.html">The Workout Pit</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./MP1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./MP1.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./MP1.html">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./MP1.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="hero">
+    <img src="./img/formmm.jpeg" alt="image-of-barbell" height="100%" width="100%">
+        <div class="container">
+            <form action="/dummy">
+                <p>
+                    <label for="first-name">First Name:</label>
+                </p>
+                <p>
+                    <input type="text" name="first-name" id="first-name" required>
+                </p>
+                <p>
+                    <label for="last-name">Last Name:</label>
+                </p>
+                <p>
+                    <input type="text" name="last-name" id="last-name" required>
+                    
+                    
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                </p>
+                <p>
+                    <input type="text" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="Contact">Contact No.:</label>
+                </p>
+                <p>
+                    <input type="contact" name="contact" id="contact" required>
+                </p>
+                <p>
+                    Pit Location
+                </p>
+                <p>
+                    <select name="City" id="City">
+                        <option value="Mandaluyong City">Mandaluyong City</option>
+                        <option value="Manila City">Manila City</option>
+                        <option value="Pasig City">Pasig City</option>
+                        <option value="Quezon City">Quezon City</option>
+                        <option value="Paranaque City">Paranaque City</option>
+                    </select>
+                </p>
+                <button type="button" class="btn btn-dark">Register</button>
+            </form>
+        </div>
+        <div>
+            <footer class="footer">
+                <img src="./img/footer.jpeg" alt="image-of-flex" width="100%" height="500px">
+            <div class="row  h2">
+                <div class="col">
+                    
+                </div>
+                <div class="col-6">
+                    <div><h2>Contact Details</h2>
+                        Main Office
+                        <br>
+                        <ul>
+                            <li>420 M. Fernando St., Highway Hills, Mandaluyong City</li>
+                            <br>
+                            <li>0917-888-0000</li>
+                            <br>
+                            <li>Email : theworkoutpit@gmail.com</li>
+                        </ul>
+                        </div>
+                </div>
+                <div class="col-4">
+                    <div>
+                        <h2>Follow Us On</h2>
+                        <br>
+                            <div>
+                                <a href="https://www.facebook.com/"><img src="./img/Facebook_icon.svg.png" alt="image-of-facebook" height="20px" width="20px">Facebook</a></div>
+                                <br>
+                            <div>
+                               <a href="https://www.instagram.com/"><img src="./img/instagram-logo-2D3332C00B-seeklogo.com.png" alt="logo-of-instagram"  height="20px" width="20px">Instagram</a>
+                            </div>
+                            <br>
+                            <div>
+                               <a href="https://twitter.com/Twitter"><img src="./img/twitter.jpg" alt="image-of-twitter" height="20px" width="20px">Twitter</a> 
+                            </div> 
+                    </div>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </footer>     
+    </div>
+</div>
+</body>
+<script src="./js/bootstrap.js"></script>
+</html>
